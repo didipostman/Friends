@@ -3,6 +3,9 @@ every user has his own account profile data on his PC Or Mac by running XAMPP se
 please visit and download
 https://vdoc.pub/documents/php-5-social-networking-7p3ojl4clj20
 
+The friend of my friend is my friend
+The ennemy of my friend is my ennemy
+
 how to get ip adress of pc on internet running XAMPP
 
 To get the IP address of your PC on the internet while running **XAMPP**, you need to find your **public (external) IP address**. XAMPP itself generally runs on your local machine using its **private (local) IP address** (usually $127.0.0.1$ or a $192.168.x.x$ address).
