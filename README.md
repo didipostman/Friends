@@ -89,5 +89,9 @@ Restrict Access with .htaccess (Apache): Create an .htaccess file in your phpmya
 Rename the phpmyadmin directory: Change the name of the phpmyadmin folder to something less obvious to make it harder for attackers to find.
 Keep XAMPP and phpMyAdmin Updated: Regularly update your XAMPP installation and phpMyAdmin to benefit from the latest security patches.
 Avoid Public Exposure: If XAMPP is not intended for public access, ensure it's not accessible from the internet. If remote access is necessary, consider using an SSH tunnel or VPN.
+
+<img width="1196" height="928" alt="image" src="https://github.com/user-attachments/assets/8026a630-0da5-4fa3-b503-93dccc6167c0" />
+
+
 Create Dedicated Database Users: Instead of always using the root user, create specific database users with only the necessary privileges for your applications.
 
