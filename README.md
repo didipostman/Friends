@@ -135,5 +135,32 @@ Open the XAMPP Control Panel.
 Stop the Apache module and then start it again to apply the changes.
 After these steps, you should be able to access your XAMPP projects securely using https://localhost/ in your browser. You might still encounter a browser warning about the certificate not being trusted, as it is self-signed, but the connection will be encrypted.
 
-Finally send encrypted emails to your friend containing your @IP and he will reply to you by email containing his @IP
+Finally send encrypted emails to your friend containing your @IP and he will reply to you by encrypted email containing his @IP
+---------------------------------------------------------------------------------------------------------------------------
+To send and receive encrypted emails, use built-in features like Gmail's Confidential Mode or Outlook's encryption options for basic security, or choose a specialized secure email service like Proton Mail for end-to-end encryption. For built-in options, compose an email, find the lock icon or encryption menu, set restrictions like expiration dates or passcodes, and then send the message. Recipients may need to authenticate using a passcode or by logging into a secure portal to view the message. 
+Using Built-in Encryption (Gmail & Outlook)
+Gmail (Confidential Mode):
+Open a new email in Gmail.
+Click the lock icon at the bottom of the compose window to enable Confidential Mode.
+Set an expiration date for the message and, optionally, a passcode for recipients to access it.
+Click Save, then write and send the email.
+The recipient will receive instructions on how to open and read the message.
+Outlook (Options Tab):
+Create a new email in Outlook. 
+2 In the message window, go to the Options tab or ribbon. 
+Click the Encrypt button and select your preferred encryption option (e.g., "Encrypt-Only" or "Do Not Forward").
+Finish composing the email and click Send.
+The recipient will need to have the correct decryption tools or certificates to open the message.
+Using Specialized Secure Email Services
+Proton Mail:
+Sign up for an account with Proton Mail, which uses end-to-end and zero-access encryption.
+All emails are encrypted by default, ensuring that only the intended recipient can read them.
+You can also send encrypted emails to non-Proton Mail users by using the "Send with password" option, according to FlowCrypt. 
+To Receive Encrypted Emails
+For Gmail and Outlook's built-in methods:
+You may receive an email with a link to a secure web page to view the message. 
+You might need to sign in to your account or enter a one-time passcode sent to your email address. 
+For Proton Mail users:
+Encrypted emails will automatically open for you within your Proton Mail inbox. 
+
 
