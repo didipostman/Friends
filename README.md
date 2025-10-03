@@ -5,9 +5,9 @@ https://vdoc.pub/documents/php-5-social-networking-7p3ojl4clj20
 
 The friend of my friend is my friend
 The ennemy of my friend is my ennemy
-
+-------------------------------------------------------------------
 how to get ip adress of pc on internet running XAMPP
-
+-------------------------------------------------------------------
 To get the IP address of your PC on the internet while running **XAMPP**, you need to find your **public (external) IP address**. XAMPP itself generally runs on your local machine using its **private (local) IP address** (usually $127.0.0.1$ or a $192.168.x.x$ address).
 
 Here's how to find your public IP address:
@@ -51,5 +51,43 @@ Simply getting your public IP address isn't enough to let others on the internet
 
 If you only want other devices on your **local network** to access it, you only need to use your PC's **Private IP address** (e.g., $192.168.1.5$) in their browser, and **Port Forwarding is NOT needed**.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------
 Security Issue
+------------------------------------------------------------------------------------------------------------------------------------------------------
 https://support.microsoft.com/en-us/windows/firewall-and-network-protection-in-the-windows-security-app-ec0844f7-aebd-0583-67fe-601ecf5d774f
+
+How to secure XAMPP
+
+Securing phpMyAdmin in a XAMPP installation involves several key steps to prevent unauthorized access and protect your databases.
+1. Set a Strong Password for the MySQL Root User: 
+Access the MySQL console: Open the XAMPP Control Panel, click "Shell" to open the command line, and type mysql -u root -p. Press Enter. When prompted for a password, leave it blank and press Enter again (as it's usually blank by default in XAMPP).
+Set the password: Execute the SQL query:
+الشفرة
+
+    SET PASSWORD FOR 'root'@'localhost' = PASSWORD('your_new_strong_password');
+Replace 'your_new_strong_password' with a secure, unique password.
+2. Configure phpMyAdmin to Use Cookie Authentication:
+Locate the config.inc.php file: Navigate to your XAMPP installation directory (e.g., C:\xampp), then to the phpmyadmin folder, and open config.inc.php in a text editor.
+Change authentication type: Find the line:
+الشفرة
+
+    $cfg['Servers'][$i]['auth_type'] = 'config';
+Change it to:
+الشفرة
+
+    $cfg['Servers'][$i]['auth_type'] = 'cookie';
+Disable passwordless login: Also, ensure AllowNoPassword is set to false:
+الشفرة
+
+    $cfg['Servers'][$i]['AllowNoPassword'] = false;
+Save the file.
+3. Access phpMyAdmin and Log In:
+Open your browser and go to localhost/phpmyadmin.
+You will now be presented with a login screen. Enter root as the username and the strong password you set in step 1.
+4. Further Security Measures (Recommended):
+Restrict Access with .htaccess (Apache): Create an .htaccess file in your phpmyadmin directory to limit access to specific IP addresses or require an additional password.
+Rename the phpmyadmin directory: Change the name of the phpmyadmin folder to something less obvious to make it harder for attackers to find.
+Keep XAMPP and phpMyAdmin Updated: Regularly update your XAMPP installation and phpMyAdmin to benefit from the latest security patches.
+Avoid Public Exposure: If XAMPP is not intended for public access, ensure it's not accessible from the internet. If remote access is necessary, consider using an SSH tunnel or VPN.
+Create Dedicated Database Users: Instead of always using the root user, create specific database users with only the necessary privileges for your applications.
+
