@@ -7,7 +7,7 @@ https://vdoc.pub/documents/php-5-social-networking-7p3ojl4clj20
 Friends for Windows 11
 -------------------------------
 Install Last Windows 11 version on your PC you like and do not forget to updated when needed 
-Install Vmware worksation on your Linux PC and install Windows 7
+Install Vmware worksation on your Windows 11 PC and install Windows 7
 
 XAMPP For Windows 7 
 -----------------
