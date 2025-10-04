@@ -9,7 +9,7 @@ Friends for Windows 11
 Install Last Windows 11 version on your PC you like and do not forget to updated when needed 
 Install Vmware worksation on your Windows 11 PC and install Windows 7
 
-XAMPP For Windows 7 
+Begin of XAMPP For Windows 7 
 -----------------
 Setting up an SSL certificate on XAMPP for external use involves several steps to ensure secure communication over HTTPS. This process differs from a self-signed certificate for localhost as it requires a certificate issued by a trusted Certificate Authority (CA) and a publicly accessible domain name.
 1. Obtain an SSL Certificate:
