@@ -1,8 +1,16 @@
 Create a new Facebook alike social networking web app but it is distributed 
-every user has his own account profile data on his PC Or Mac by running XAMPP server on evry user PC
+every user has his own account profile data on his PC (Windows/Linux) Or Mac by running XAMPP server on evry user PC
 please visit and download
 https://vdoc.pub/documents/php-5-social-networking-7p3ojl4clj20
 ------------------------------------------------------------------------
+
+Friends for Windows 11
+-------------------------------
+Install Last Windows 11 version on your PC you like and do not forget to updated when needed 
+Install Vmware worksation on your Linux PC and install Windows 7
+
+XAMPP For Windows 7 
+-----------------
 Setting up an SSL certificate on XAMPP for external use involves several steps to ensure secure communication over HTTPS. This process differs from a self-signed certificate for localhost as it requires a certificate issued by a trusted Certificate Authority (CA) and a publicly accessible domain name.
 1. Obtain an SSL Certificate:
 Generate a Certificate Signing Request (CSR): Use OpenSSL to generate a CSR on your XAMPP server. This file contains your public key and information about your domain.
@@ -116,8 +124,7 @@ You will now be presented with a login screen. Enter root as the username and th
 4. Further Security Measures (Recommended):
 Restrict Access with .htaccess (Apache): Create an .htaccess file in your phpmyadmin directory to limit access to specific IP addresses or require an additional password.
 Rename the phpmyadmin directory: Change the name of the phpmyadmin folder to something less obvious to make it harder for attackers to find.
-Keep XAMPP and phpMyAdmin Updated: Regularly update your XAMPP installation and phpMyAdmin to benefit from the latest security patches.
-Avoid Public Exposure: If XAMPP is not intended for public access, ensure it's not accessible from the internet. If remote access is necessary, consider using an SSH tunnel or VPN.
+
 
 
 Create Dedicated Database Users: Instead of always using the root user, create specific database users with only the necessary privileges for your applications.
@@ -189,6 +196,16 @@ Yes, VMware Workstation Pro is free for all users, including commercial, educati
 Finally Backup 
 ----------
 https://support.microsoft.com/en-us/windows/back-up-and-restore-with-windows-backup-87a81f8a-78fa-456e-b521-ac0560e32338
+
+End of XAMPP For Windows 7
+--------------------------------
+
+Friends for Linux
+----------------------
+Install Last Linux version on your PC you like and do not forget to patch Kernel when needed 
+Install Vmware worksation on your Linux PC and install Windows 7 on it and do all what described above for your Vmware deployed see XAMPP For Windows 7.
+Yes, VMware Workstation Pro is free for all users, including commercial, educational, and personal use, as of November 2024. The previous, less powerful VMware Workstation Player has been discontinued. To download it, you must register and log in to the Broadcom support portal. During installation, you will select the option for "Personal Use" to activate the free license
+
 
 
 
