@@ -202,7 +202,7 @@ End of XAMPP For Windows 7
 
 Friends for Linux
 ----------------------
-Install Last Linux version on your PC you like and do not forget to patch Kernel when needed 
+Install Last Linux Ubuntu or RedHat version on your PC you like and do not forget to patch Kernel when needed 
 Install Vmware worksation on your Linux PC and install Windows 7 on it and do all what described above for your Vmware deployed see XAMPP For Windows 7.
 Yes, VMware Workstation Pro is free for all users, including commercial, educational, and personal use, as of November 2024. The previous, less powerful VMware Workstation Player has been discontinued. To download it, you must register and log in to the Broadcom support portal. During installation, you will select the option for "Personal Use" to activate the free license
 
