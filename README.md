@@ -181,6 +181,12 @@ For Gmail and Outlook's built-in methods:
 You may receive an email with a link to a secure web page to view the message. 
 You might need to sign in to your account or enter a one-time passcode sent to your email address. 
 For Proton Mail users:
-Encrypted emails will automatically open for you within your Proton Mail inbox. 
+Encrypted emails will automatically open for you within your Proton Mail inbox.
+
+Mask your IP
+-----------------
+Install Vmware worksation on your Windows 11 and install Windows XP on it and do all what described above on Windows 10 Vmware deployed.
+Yes, VMware Workstation Pro is free for all users, including commercial, educational, and personal use, as of November 2024. The previous, less powerful VMware Workstation Player has been discontinued. To download it, you must register and log in to the Broadcom support portal. During installation, you will select the option for "Personal Use" to activate the free license. 
+
 
 
