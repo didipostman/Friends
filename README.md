@@ -119,8 +119,6 @@ Rename the phpmyadmin directory: Change the name of the phpmyadmin folder to som
 Keep XAMPP and phpMyAdmin Updated: Regularly update your XAMPP installation and phpMyAdmin to benefit from the latest security patches.
 Avoid Public Exposure: If XAMPP is not intended for public access, ensure it's not accessible from the internet. If remote access is necessary, consider using an SSH tunnel or VPN.
 
-<img width="1196" height="928" alt="image" src="https://github.com/user-attachments/assets/8026a630-0da5-4fa3-b503-93dccc6167c0" />
-
 
 Create Dedicated Database Users: Instead of always using the root user, create specific database users with only the necessary privileges for your applications.
 ---------------------------------------------
@@ -185,8 +183,12 @@ Encrypted emails will automatically open for you within your Proton Mail inbox.
 
 Mask your IP
 -----------------
-Install Vmware worksation on your Windows 11 and install Windows XP on it and do all what described above on Windows 10 Vmware deployed.
+Install Vmware worksation on your Windows 11 and install Windows 7 on it and do all what described above for your Vmware deployed.
 Yes, VMware Workstation Pro is free for all users, including commercial, educational, and personal use, as of November 2024. The previous, less powerful VMware Workstation Player has been discontinued. To download it, you must register and log in to the Broadcom support portal. During installation, you will select the option for "Personal Use" to activate the free license. 
+
+Finally Backup 
+----------
+https://support.microsoft.com/en-us/windows/back-up-and-restore-with-windows-backup-87a81f8a-78fa-456e-b521-ac0560e32338
 
 
 
